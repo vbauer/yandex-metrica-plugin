@@ -30,6 +30,8 @@ import net.sf.json.JSONObject;
 import org.kohsuke.stapler.StaplerRequest;
 
 /**
+ * Page decorator for Yandex Metrica plugin.
+ *
  * @author Vladislav Bauer
  */
 
@@ -40,11 +42,13 @@ public class YandexMetricaPageDecorator extends PageDecorator {
     private static final String DISPLAY_NAME = "Yandex Metrica";
     private static final String PARAM_COUNTER_ID = "counterId";
 
+    /**
+     * Counter identifier from Yandex Metrica administration UI.
+     */
     private String counterId;
 
 
     public YandexMetricaPageDecorator() {
-        super(YandexMetricaPageDecorator.class);
         load();
     }
 
