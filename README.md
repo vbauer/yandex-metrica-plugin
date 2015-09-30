@@ -3,7 +3,7 @@ Jenkins Yandex Metrica Plugin
 =============================
 
 Yandex Metrica plugin allows to decorate all Jenkins pages with [Yandex.Metrica](https://metrica.yandex.com) tracking code.
-It helps helps you get descriptive reports and record the actions of individual users, find out what people are searching
+It helps you get descriptive reports and record the actions of individual users, find out what people are searching
 for on your build system, and how do they use it.
 
 
@@ -14,7 +14,7 @@ Configuration section for this plugin is very simple:
 
 ![Configuration](misc/configuration.png)
 
-You should specify only "Counter ID" to integrate Jenkins with Yandex Metrica.
+You should specify only "Counter ID" parameter to integrate Jenkins with Yandex Metrica.
 
 
 License
