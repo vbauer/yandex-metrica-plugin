@@ -12,7 +12,7 @@ Requirements
 
 * Jenkins LTS 1.580.1 or higher
 * Java SE Runtime Environment 1.7 or higher
-* Yandex Metrica account and counter
+* Yandex Metrica's account and counter
 
 
 Configuration
@@ -46,6 +46,18 @@ How to build the `hpi` file:
     ```
     
 4. The hpi file is located at `"target/yandex-metrica.hpi"`.
+
+
+Contributing guidelines
+-----------------------
+
+Feel free to file bugs or pull requests [here](https://github.com/vbauer/yandex-metrica-plugin).
+
+**NB:** If you would like to send PR, check your build with `"strict"` profile (it runs PMD and Checkstyle Maven plugins):
+
+```sh
+$ mvn clean package -P strict
+```
 
 
 License
