@@ -15,6 +15,19 @@ Requirements
 * Yandex Metrica's account and counter
 
 
+Installation
+------------
+
+This plugin is not yet available in the Jenkins plugin "hub". Until then, you can install the plugin easily by uploading the binary to Jenkins through Plugin Manager UI.
+
+To do so:
+
+* Build binary release. See "Development section" for additional information.
+* Go to Manage Jenkins>-Manage Plugins.
+* Switch to the "Advanced" tab.
+* In the "Upload Plugin" section, pick the binary downloaded in the first step and press "Upload".
+
+
 Configuration
 -------------
 
