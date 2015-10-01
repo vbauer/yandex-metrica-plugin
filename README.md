@@ -60,7 +60,7 @@ How to build the `hpi` file:
 
 4. The hpi file is located at `"target/yandex-metrica.hpi"`.
 
-5\*. If you would like to run a local Jenkins instance with the plug-in:
+5. If you would like to run a local Jenkins instance with the plug-in:
     ```sh
     $> mvn clean package hpi:run
     ```
@@ -73,7 +73,7 @@ Feel free to file bugs or pull requests [here](https://github.com/vbauer/yandex-
 **NB:** If you would like to send PR, check your build with `"strict"` profile (it runs PMD and Checkstyle Maven plugins):
 
 ```sh
-$ mvn clean package -P strict
+$> mvn clean package -P strict
 ```
 
 
