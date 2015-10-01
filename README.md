@@ -45,21 +45,25 @@ How to build the `hpi` file:
 
 1. Clone the git repository:
     ```sh
-    $ git clone https://github.com/vbauer/yandex-metrica-plugin
+    $> git clone https://github.com/vbauer/yandex-metrica-plugin
     ```
     
 2. Change directory to the `"yandex-metrica-plugin"` repository:
     ```sh
-    $ cd yandex-metrica-plugin
+    $> cd yandex-metrica-plugin
     ```
     
-3. Build the hpi file:
+3. Build the hpi file from source:
     ```sh
-    $ mvn clean package
+    $> mvn clean package
     ```
-    
+
 4. The hpi file is located at `"target/yandex-metrica.hpi"`.
 
+5\*. If you would like to run a local Jenkins instance with the plug-in:
+    ```sh
+    $> mvn clean package hpi:run
+    ```
 
 Contributing guidelines
 -----------------------
