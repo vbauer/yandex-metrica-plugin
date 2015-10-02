@@ -24,7 +24,7 @@
     <scm>
         <connection>scm:git:git://github.com/jenkinsci/yandex-metrica-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:jenkinsci/yandex-metrica-plugin.git</developerConnection>
-        <url>http://github.com/jenkinsci/yandex-metrica-plugin</url>
+        <url>https://github.com/jenkinsci/yandex-metrica-plugin</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -40,8 +40,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <maven.checkstyle.plugin.version>2.16</maven.checkstyle.plugin.version>
-        <maven.pmd.plugin.version>3.5</maven.pmd.plugin.version>
+        <maven-checkstyle-plugin.version>2.16</maven-checkstyle-plugin.version>
+        <maven-pmd-plugin.version>3.5</maven-pmd-plugin.version>
+        <maven-release-plugin.version>2.5.2</maven-release-plugin.version>
     </properties>
 
     <build>
@@ -79,7 +80,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-checkstyle-plugin</artifactId>
-                        <version>${maven.checkstyle.plugin.version}</version>
+                        <version>${maven-checkstyle-plugin.version}</version>
                         <configuration>
                             <consoleOutput>true</consoleOutput>
                             <configLocation>src/test/resources/checkstyle.xml</configLocation>
@@ -98,7 +99,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
-                        <version>${maven.pmd.plugin.version}</version>
+                        <version>${maven-pmd-plugin.version}</version>
                         <configuration>
                             <failOnViolation>false</failOnViolation>
                             <printFailingErrors>true</printFailingErrors>
