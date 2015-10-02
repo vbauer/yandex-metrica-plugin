@@ -24,7 +24,8 @@
     <scm>
         <connection>scm:git:git://github.com/jenkinsci/yandex-metrica-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:jenkinsci/yandex-metrica-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/yandex-metrica-plugin</url>
+        <url>http://github.com/jenkinsci/yandex-metrica-plugin</url>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
