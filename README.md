@@ -18,12 +18,12 @@ Requirements
 Installation
 ------------
 
-This plugin is not yet available in the Jenkins plugin "hub". Until then, you can install the plugin easily by uploading the binary to Jenkins through Plugin Manager UI.
+This plugin is available in the Jenkins [Update Center](https://updates.jenkins-ci.org). Official documentation could be found [here](https://wiki.jenkins-ci.org/display/JENKINS/Yandex+Metrica+Plugin).
 
-To do so:
+You can install the plugin easily by uploading binary archive to Jenkins through Plugin Manager UI:
 
 * Build binary release. See "Development section" for additional information.
-* Go to Manage Jenkins>-Manage Plugins.
+* Go to Manage Jenkins -> Manage Plugins.
 * Switch to the "Advanced" tab.
 * In the "Upload Plugin" section, pick the binary downloaded in the first step and press "Upload".
 
