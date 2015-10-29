@@ -1,22 +1,21 @@
 
-Jenkins Yandex Metrica Plugin
-=============================
+# Jenkins Yandex Metrica Plugin
+
+[![Build Status](https://travis-ci.org/vbauer/yandex-metrica-plugin.svg?branch=master)](https://travis-ci.org/vbauer/yandex-metrica-plugin)
 
 Yandex Metrica plugin allows to decorate all Jenkins pages with [Yandex.Metrica](https://metrica.yandex.com) tracking code.
 It helps you get descriptive reports and record the actions of individual users, find out what they are searching
 for on the build system, and how do they use it.
 
 
-Requirements
-------------
+## Requirements
 
 * Jenkins LTS 1.580.1 or higher
 * Java SE Runtime Environment 1.7 or higher
 * Yandex Metrica's account and counter
 
 
-Installation
-------------
+## Installation
 
 This plugin is available in the Jenkins [Update Center](https://updates.jenkins-ci.org). Official documentation could be found [here](https://wiki.jenkins-ci.org/display/JENKINS/Yandex+Metrica+Plugin).
 
@@ -28,8 +27,7 @@ You can install the plugin easily by uploading binary archive to Jenkins through
 * In the "Upload Plugin" section, pick the binary downloaded in the first step and press "Upload".
 
 
-Configuration
--------------
+## Configuration
 
 Configuration section for this plugin is very simple:
 
@@ -38,8 +36,7 @@ Configuration section for this plugin is very simple:
 You should specify only "Counter ID" parameter to integrate Jenkins with Yandex Metrica.
 
 
-Development
------------
+## Development
 
 How to build the `hpi` file:
 
@@ -65,8 +62,7 @@ How to build the `hpi` file:
     $> mvn clean package hpi:run
     ```
 
-Contributing guidelines
------------------------
+## Contributing guidelines
 
 Feel free to file bugs or pull requests [here](https://github.com/vbauer/yandex-metrica-plugin).
 
@@ -77,7 +73,6 @@ $> mvn clean package -P strict
 ```
 
 
-License
--------
+## AALicense
 
 Yandex Metrica plugin is licensed under the MIT license. See [LICENSE](LICENSE.md) file for more information.
