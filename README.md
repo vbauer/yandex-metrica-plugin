@@ -73,6 +73,6 @@ $> mvn clean package -P strict
 ```
 
 
-## AALicense
+## License
 
 Yandex Metrica plugin is licensed under the MIT license. See [LICENSE](LICENSE.md) file for more information.
