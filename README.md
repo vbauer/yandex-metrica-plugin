@@ -11,7 +11,7 @@ for on the build system, and how do they use it.
 ## Requirements
 
 * Jenkins LTS 1.580.1 or higher
-* Java SE Runtime Environment 1.7 or higher
+* Java SE Runtime Environment 1.8 or higher
 * Yandex Metrica's account and counter
 
 
